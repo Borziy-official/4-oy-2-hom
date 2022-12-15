@@ -1,0 +1,55 @@
+li {
+    list-style: none;
+}
+
+.my_card {
+    padding: 5px;
+    margin: 100px auto;
+    position: relative;
+    transition: all 300ms cubic-bezier(0.03, 0.98, 0.53, 0.99) 0s;
+    background: linear-gradient(to right, #d25778, #ec585c, #e7d155, #56a8c6);
+    border-radius: 20px;
+  }
+  .my_card{
+    border:4px solid transparent;
+    border-image:linear-gradient(-45deg, #f00,#f0f,#f00,#00f,#0f0);
+    border-image-slice:1;
+    box-shadow:0 15px 25px rgba(15,15,15,0.2)
+  }
+
+  .my_card:hover {
+    box-shadow: 
+      -20px -20px 30px -25px var(--color1), 
+      20px 20px 30px -25px var(--color2), 
+      -7px -7px 10px -5px var(--color1), 
+      7px 7px 10px -5px var(--color2), 
+      0 0 13px 4px rgba(255,255,255,0.3),
+      0 55px 35px -20px rgba(0, 0, 0, 0.5);
+  }
+
+  .my_card.charizard {
+    --color1: var(--charizard1);
+    --color2: var(--charizard2);
+    --front: var(--charizardfront);
+  }
+  .my_card.pika {
+    --color1: var(--pika1);
+    --color2: var(--pika2);
+    --front: var(--pikafront);
+  }
+  .my_card.mewtwo {
+    --color1: var(--mewtwo1);
+    --color2: var(--mewtwo2);
+    --front: var(--mewtwofront);
+  }
+  .my_card.eevee {
+    --color1: #ec9bb6;
+    --color2: #ccac6f;
+    --color3: #69e4a5;
+    --color4: #8ec5d6;
+    --color5: #b98cce;
+    --front: var(--eeveefront);
+  }
+  
+  
+  
