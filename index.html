@@ -15,14 +15,23 @@
 <body class="bg-warning">
     <header>
         <div class="text-center div"><img src="./img/pokemon.png" alt="pokemon logo"></div>
-        <form class=" justify-content-center d-flex" >
+        <form class=" justify-content-center d-flex">
             <select class="js-select bg-danger">
-                <option value="All" class="aaaa" >All</option>
+                <option value="All" class="aaaa">All</option>
                 <option value="Grass">Grass</option>
+            </select>
+            <select class="bg-danger js-a-b">
+                <option value="All">All</option>
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
             </select>
         </form>
     </header>
     <main>
+        <form class="js-form align-items-center d-flex justify-content-center">
+                <input type="text" class="js-input">
+                <button type="submit" class="btn btn-outline-danger ms-3">Search</button>
+        </form>
         <section class="row">
             <div class="col-2"></div>
             <div class="row col-10 contener"></div>
