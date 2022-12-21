@@ -4,7 +4,7 @@ var aaaa = document.querySelector(".aaaa")
 var elForm = document.querySelector(".js-form")
 var elInput = document.querySelector(".js-input")
 var elA_Z = document.querySelector(".js-a-b")
-parametr
+
 function pokemonOutput(array) {
     elDocRow.innerHTML = ""
     for (var list of array) {
